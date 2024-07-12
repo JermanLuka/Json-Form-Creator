@@ -1,0 +1,46 @@
+[
+  {
+    "key": "name",
+    "label": "Name",
+    "type": "text",
+    "validation": {
+      "required": true,
+      "maxLength": 50
+    }
+  },
+  {
+    "key": "age",
+    "label": "Age",
+    "type": "number",
+    "validation": {
+      "required": true,
+      "min": 1,
+      "max": 150
+    }
+  },
+  {
+    "key": "email",
+    "label": "Email",
+    "type": "email",
+    "validation": {
+      "required": true,
+      "pattern": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"
+    }
+  },
+  {
+    "key": "address",
+    "label": "Address",
+    "type": "text",
+    "validation": {
+      "maxLength": 100
+    }
+  },
+  {
+    "key": "phone",
+    "label": "Phone Number",
+    "type": "tel",
+    "validation": {
+      "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{4}"
+    }
+  }
+]
